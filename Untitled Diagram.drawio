@@ -1,0 +1,145 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (iPhone; CPU iPhone OS 18_6_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1" version="29.5.5">
+  <diagram id="FLVh7VAV0hqaBzGQzrF_" name="Page-1">
+    <mxGraphModel dx="787" dy="1216" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-7" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="322" y="155" as="sourcePoint" />
+            <mxPoint x="405" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer" vertex="1">
+          <mxGeometry height="130" width="65" x="241" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Anna Patillo" vertex="1">
+          <mxGeometry height="30" width="70" x="238.5" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-3" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sales Subsystem Actor: Customer" vertex="1">
+          <mxGeometry height="333" width="620" x="362" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-4" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Search for flights" vertex="1">
+          <mxGeometry height="40" width="120" x="45" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-5" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="See weather information" vertex="1">
+          <mxGeometry height="40" width="120" x="45" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-6" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="See chance of flight cancellation" vertex="1">
+          <mxGeometry height="40" width="120" x="45" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-7" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Rebook a cancelled flight" vertex="1">
+          <mxGeometry height="40" width="120" x="45" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-8" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Change origin/destination" vertex="1">
+          <mxGeometry height="40" width="120" x="230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-9" edge="1" parent="irQAnBTCeAJQo9FwGanO-3" source="irQAnBTCeAJQo9FwGanO-8" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="irQAnBTCeAJQo9FwGanO-7" value="">
+          <mxGeometry relative="1" width="160" x="-0.2898" y="-17" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="289" y="46.5" as="sourcePoint" />
+            <mxPoint x="245" y="153.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-10" connectable="0" parent="irQAnBTCeAJQo9FwGanO-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.042" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-11" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Browse rebook flights" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-12" edge="1" parent="irQAnBTCeAJQo9FwGanO-3" source="irQAnBTCeAJQo9FwGanO-7" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.982;exitY=0.382;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="irQAnBTCeAJQo9FwGanO-11" value="">
+          <mxGeometry relative="1" width="160" x="0.3925" y="-23" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="303" y="160" as="sourcePoint" />
+            <mxPoint x="220" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-13" connectable="0" parent="irQAnBTCeAJQo9FwGanO-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0769" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-14" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Take flight information from user" vertex="1">
+          <mxGeometry height="40" width="120" x="250" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-15" edge="1" parent="irQAnBTCeAJQo9FwGanO-3" source="irQAnBTCeAJQo9FwGanO-7" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.987;exitY=0.709;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="irQAnBTCeAJQo9FwGanO-14" value="">
+          <mxGeometry relative="1" width="160" x="0.3925" y="-23" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="220" y="245" as="sourcePoint" />
+            <mxPoint x="307" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-16" connectable="0" parent="irQAnBTCeAJQo9FwGanO-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1409" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-17" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Book flight" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-19" edge="1" parent="irQAnBTCeAJQo9FwGanO-3" source="irQAnBTCeAJQo9FwGanO-11" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="irQAnBTCeAJQo9FwGanO-17" value="">
+          <mxGeometry relative="1" width="160" x="-0.2898" y="-17" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="333" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="irQAnBTCeAJQo9FwGanO-20" connectable="0" parent="irQAnBTCeAJQo9FwGanO-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="include" vertex="1">
+          <mxGeometry relative="1" x="-0.042" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-1" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Retrieve flight details" vertex="1">
+          <mxGeometry height="40" width="120" x="440" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-2" edge="1" parent="irQAnBTCeAJQo9FwGanO-3" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="f4nQ1a5ywaWQkDOQlrUO-1" value="">
+          <mxGeometry relative="1" width="160" x="-0.2898" y="-17" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="370" y="192" as="sourcePoint" />
+            <mxPoint x="450" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-3" connectable="0" parent="f4nQ1a5ywaWQkDOQlrUO-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="include" vertex="1">
+          <mxGeometry relative="1" x="-0.042" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-4" parent="irQAnBTCeAJQo9FwGanO-3" style="ellipse;whiteSpace=wrap;html=1;" value="Request refund" vertex="1">
+          <mxGeometry height="40" width="120" x="246" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-5" edge="1" parent="irQAnBTCeAJQo9FwGanO-3" source="f4nQ1a5ywaWQkDOQlrUO-4" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.767;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" target="irQAnBTCeAJQo9FwGanO-7" value="">
+          <mxGeometry relative="1" width="160" x="0.3925" y="-23" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="173" y="218" as="sourcePoint" />
+            <mxPoint x="260" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-6" connectable="0" parent="f4nQ1a5ywaWQkDOQlrUO-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1409" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-8" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" target="irQAnBTCeAJQo9FwGanO-5" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="165" as="sourcePoint" />
+            <mxPoint x="415" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-9" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="irQAnBTCeAJQo9FwGanO-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="333" y="191" as="sourcePoint" />
+            <mxPoint x="417" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f4nQ1a5ywaWQkDOQlrUO-10" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="irQAnBTCeAJQo9FwGanO-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329" y="224" as="sourcePoint" />
+            <mxPoint x="417" y="226" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
