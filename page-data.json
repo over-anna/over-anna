@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "title": "BookBot!",
+      "description": "One stop destination for all audiobooks.",
+      "url": "https://over-anna.github.io/book-bot/",
+      "cover": "./assets/images/bookbot.png",
+      "genre": ["book", "audiobook", "project 1"]
+    },
+    {
+      "title": "Spotlight",
+      "description": "Drag and drop game. Put the band members where you want them!",
+      "url": "https://over-anna.github.io/spotlight/",
+      "cover": "./assets/images/spotlight.png",
+      "genre": ["drag and drop", "game", "project 2"]
+    },
+    {
+      "title": "Syllabi",
+      "description": "Revamped version of a class syllabus.",
+      "url": "https://over-anna.github.io/simpler-syllabus/",
+      "cover": "./assets/images/syllabi.png",
+      "genre": ["final","honors project", "syllabus", "organized"]
+    },
+    {
+      "title": "shortcuts!",
+      "description": "Collection of keyboard shortcuts.",
+      "url": "https://over-anna.github.io/team-project/",
+      "cover": "./assets/images/shortcuts.png",
+      "genre": ["project 3","team","shortcuts"]
+    }
+  ]
+}
