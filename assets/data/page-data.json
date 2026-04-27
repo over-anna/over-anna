@@ -4,6 +4,7 @@
       "title": "BookBot!",
       "description": "One stop destination for all audiobooks.",
       "url": "https://over-anna.github.io/book-bot/",
+      "source": "https://github.com/over-anna/book-bot",
       "cover": "./assets/images/bookbot.png",
       "genre": ["book", "audiobook", "project 1"]
     },
@@ -11,6 +12,7 @@
       "title": "Spotlight",
       "description": "Drag and drop game. Put the band members where you want them!",
       "url": "https://over-anna.github.io/spotlight/",
+      "source": "https://github.com/over-anna/spotlight",
       "cover": "./assets/images/spotlight.png",
       "genre": ["drag and drop", "game", "project 2"]
     },
@@ -18,13 +20,15 @@
       "title": "Syllabi",
       "description": "Revamped version of a class syllabus. Final Project.",
       "url": "https://over-anna.github.io/simpler-syllabus/",
+      "source": "https://github.com/over-anna/simpler-syllabus",
       "cover": "./assets/images/syllabi.png",
       "genre": ["final","honors project", "syllabus", "organized"]
     },
     {
-      "title": "shortcuts!",
+      "title": "Shortcuts!",
       "description": "Collection of keyboard shortcuts.",
       "url": "https://over-anna.github.io/team-project/",
+      "source": "https://github.com/over-anna/team-project",
       "cover": "./assets/images/shortcuts.png",
       "genre": ["project 3","team","shortcuts"]
     }
