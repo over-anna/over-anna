@@ -16,7 +16,7 @@
     },
     {
       "title": "Syllabi",
-      "description": "Revamped version of a class syllabus.",
+      "description": "Revamped version of a class syllabus. Final Project.",
       "url": "https://over-anna.github.io/simpler-syllabus/",
       "cover": "./assets/images/syllabi.png",
       "genre": ["final","honors project", "syllabus", "organized"]
