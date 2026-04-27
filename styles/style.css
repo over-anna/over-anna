@@ -18,15 +18,18 @@ h1 {
   text-align: center;
   margin-top: 30px;
   color: white;
+  font: 700 3.5rem 'Rubik Mono One', sans-serif;
 }
 
 .navbar, footer, .card {
   background-color: rgba(0, 0, 0, 0.739);
   color: white;
+  font: 200 1.2rem 'Roboto Mono', monospace;
 }
 
 p {
   color: white;
+  font: 200 1.2rem 'Roboto Mono', monospace;
 }
 
 a:link, a:visited, a:hover, a:active {
