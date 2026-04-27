@@ -37,14 +37,21 @@ function renderObjectResults(items) {
                   alt="${page.title}">
               </a>
 
-              <div class="card-body p-3">
+              <div class="card-body p-3"><strong>
                 <h6 class="card-title mb-1">
                   ${page.title}
+                  </strong>
                 </h6>
 
                 <p class="card-text small mb-2">
                   ${page.description}
                 </p>
+
+                <p class="card-text small mb-2">
+                  <a href="${page.source}" target="_blank">Source Code</a>
+                </p>
+            
+                
               </div>
               </div>
             </div>
